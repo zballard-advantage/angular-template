@@ -1,4 +1,12 @@
-ATLAS Practical Exercise - TODO list
+# ATLAS Practical Exercise
+
+### Can you show me where the *service* became a *state service*?
+
+### Can you explain the purpose of *<router-outlet></router-outlet>*?
+
+### What does *&nbsp\;* do? Why would you use it?
+
+## TODO List
 1. Move the Add button to the right side
 2. Move edit and delete to the right side of entries with typical spacing
 3. Add the Atlas logo from resources to the navigation bar

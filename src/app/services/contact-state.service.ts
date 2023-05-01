@@ -10,17 +10,17 @@ export class ContactStateService {
     {
       id: 1,
       name: "Faye K. Pearson",
-      phoneNumber: "(123)-456-7890"
+      phoneNumber: "(123) 456-7890"
     },
     {
       id: 2,
       name: "Amy Duperson",
-      phoneNumber: "(234)-567-8901"
+      phoneNumber: "(234) 567-8901"
     },
     {
       id: 3,
       name: "Nat Real",
-      phoneNumber: "(345)-678-9012"
+      phoneNumber: "(345) 678-9012"
     }
   ];
 

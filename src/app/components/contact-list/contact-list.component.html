@@ -5,8 +5,12 @@
   <ul class="list-group">
     <li class="list-group-item"
         *ngFor="let contact of (contacts$ | async)">
-      <p>Name: {{ contact.name }}</p>
-      <p>Phone: {{contact.phoneNumber}}</p>
+      <p>
+        <strong>Name:</strong>
+        &nbsp;{{ contact.name }}</p>
+      <p>
+        <strong>Phone:</strong>
+        &nbsp;+1 {{contact.phoneNumber}}</p>
       <div class="actions">
         <button class="btn action-button btn-sm btn-secondary">
           Edit
