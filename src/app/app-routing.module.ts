@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactListComponent } from './components/contact-list/contact-list.component';
-import { ContactEditComponent } from './components/edit-contact/contact-edit.component';
+import { ContactEditComponent } from './components/contact-edit/contact-edit.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'contacts', pathMatch: 'full' },
