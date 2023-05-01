@@ -6,14 +6,16 @@
              class="form-control"
              id="name"
              required
-             name="Name"/>
+             name="Name"
+             [(ngModel)]="contact.name"/>
     </div>
     <div class="form-group">
       <label for="phoneNumber">Phone Number</label>
       <input class="form-control"
              id="phoneNumber"
              required
-             name="Phone Number"/>
+             name="Phone Number"
+             [(ngModel)]="contact.phoneNumber"/>
     </div>
     <div class="actions">
       <button class="btn btn-success save-button"
