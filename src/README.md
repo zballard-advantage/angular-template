@@ -1,10 +1,10 @@
 # ATLAS Practical Exercise
 
-### Can you show me where the *service* became a *state service*?
-
 ### Can you explain the purpose of \<router-outlet></router-outlet\>?
 
 ### What does *&nbsp\;* do? Why would you use it?
+
+### Can you show me where the *service* became a *state service*?
 
 ## TODO List
 1. Move the Add button to the right side
