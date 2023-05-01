@@ -1,20 +1,19 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
-import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
-import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {ContactEditComponent} from './components/edit-contact/contact-edit.component';
+import {ContactListComponent} from './components/contact-list/contact-list.component';
+import {ContactStateService} from "./services/contact-state.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddTutorialComponent,
-    TutorialDetailsComponent,
-    TutorialsListComponent
+    ContactEditComponent,
+    ContactListComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +21,9 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ContactStateService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

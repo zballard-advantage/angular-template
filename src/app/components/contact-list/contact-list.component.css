@@ -1,0 +1,24 @@
+.content {
+
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  margin: 15px auto;
+}
+
+.add-button {
+  margin-top: 10px;
+}
+
+.actions {
+
+}
+
+.action-button {
+
+}
