@@ -6,12 +6,12 @@
 
 ### Can you show me where the *service* became a *state service*?
 
-## TODO List
-1. Move the Add button to the right side
-2. Move edit and delete to the right side of entries with typical spacing
-3. Add the Atlas logo from resources to the navigation bar
+## Acceptance Criteria
+1. Add button should be on the right side
+2. Edit and delete should be on the right side of entries with typical spacing between
+3. Put the Atlas logo from resources in the left corner of the navigation bar
 4. Able to delete a contact
-5. Stretch the save button across the bottom
+5. The Save button should be stretched across the bottom
 6. Do not allow save if all data is not provided
-7. Introduce the concept of description to contacts like name and phone number
-8. Introduce editing an existing contact with save
+7. Introduce the concept of description to contacts like name and phone number with the ability to save. This should be displayed on list view.
+8. Introduce the ability to edit an existing contact and save the changes
