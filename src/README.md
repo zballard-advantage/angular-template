@@ -2,7 +2,7 @@
 
 ### Can you show me where the *service* became a *state service*?
 
-### Can you explain the purpose of *<router-outlet></router-outlet>*?
+### Can you explain the purpose of \<router-outlet></router-outlet\>?
 
 ### What does *&nbsp\;* do? Why would you use it?
 
