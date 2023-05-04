@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ContactStateService } from 'src/app/services/contact-state.service';
 import {Contact} from "../models/contact.model";
-import {ActivatedRoute, Router} from "@angular/router";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-contact-edit',
