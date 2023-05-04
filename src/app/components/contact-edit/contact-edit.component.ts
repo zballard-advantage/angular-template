@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ContactStateService } from 'src/app/services/contact-state.service';
 import {Contact} from "../../models/contact.model";
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-contact-edit',
@@ -18,7 +18,9 @@ export class ContactEditComponent {
   constructor(
     private contactStateService: ContactStateService,
     private router: Router
-  ) {}
+  ) {
+
+  }
 
   saveContact() {
     this.contactStateService.saveContact(this.contact);

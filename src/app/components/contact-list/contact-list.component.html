@@ -3,26 +3,26 @@
     <h4 class="name">Contact List</h4>
   </div>
   <ul class="list-group">
-    <li class="list-group-item"
-        *ngFor="let contact of (contacts$ | async)">
+    <li class="list-group-item" *ngFor="let contact of (contacts$ | async)">
       <p>
         <strong>Name:</strong>
-        &nbsp;{{ contact.name }}</p>
+        &nbsp;{{ contact.name }}
+      </p>
       <p>
         <strong>Phone:</strong>
-        &nbsp;+1 {{contact.phoneNumber}}</p>
+        &nbsp;+1 {{contact.phoneNumber}}
+      </p>
       <div class="actions">
-        <button class="btn action-button btn-sm btn-secondary">
+        <button class="btn edit-button btn-sm btn-secondary">
           Edit
         </button>
-        <button class="btn action-button btn-sm btn-danger">
+        <button class="btn delete-button btn-sm btn-danger">
           Delete
         </button>
       </div>
     </li>
   </ul>
 </div>
-<button class="add-button btn btn-primary"
-        (click)="addContact()">
+<button class="add-button btn btn-primary" (click)="addContact()">
   Add
 </button>
