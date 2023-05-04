@@ -1,15 +1,17 @@
 # ATLAS Practical Exercise
 
-### Can you explain the purpose of \<router-outlet></router-outlet\>?
+### Can you explain the purpose of <strong>\<router-outlet></router-outlet\></strong>?<br>
 
-### What does *&nbsp\;* do? Why would you use it?
+### What does <strong>*&nbsp\;*</strong> do? Why would you use it?<br>
 
-### Can you show me where the *service* became a *state service*?
+### Can you tell me how you would make a <strong>service</strong> into <strong>state service</strong>?<br>
+
+<br>
 
 ## Acceptance Criteria
-1. Add button should be on the right side
+1. The Add button should be on the right side
 
-2. Edit and delete should be on the right side of entries. The buttons should have space between them.
+2. The Edit and delete buttons should be on the right side of entries. The buttons should have space between them.
 
 3. Put the Atlas logo from resources in the left corner of the navigation bar
 
