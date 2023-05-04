@@ -1,28 +1,3 @@
-.content {
-
-}
-
-.title {
-  display: flex;
-  flex-direction: row;
-}
-
-.name {
-  margin: 15px auto;
-}
-
 .add-button {
-  margin-top: 10px;
-}
-
-.actions {
-
-}
-
-.edit-button {
-  
-}
-
-.delete-button {
-  
+  margin-top: 15px;
 }

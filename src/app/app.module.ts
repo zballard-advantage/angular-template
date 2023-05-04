@@ -5,9 +5,9 @@ import {HttpClientModule} from '@angular/common/http';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {ContactEditComponent} from './components/contact-edit/contact-edit.component';
-import {ContactListComponent} from './components/contact-list/contact-list.component';
 import {ContactStateService} from "./services/contact-state.service";
+import { ContactEditComponent } from './contact-edit/contact-edit.component';
+import { ContactListComponent } from './contact-list/contact-list.component';
 
 @NgModule({
   declarations: [

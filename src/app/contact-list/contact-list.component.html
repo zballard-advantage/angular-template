@@ -1,9 +1,7 @@
-<div class="content">
-  <div class="title">
-    <h4 class="name">Contact List</h4>
-  </div>
+<div>
+  <h4>Contact List</h4>
   <ul class="list-group">
-    <li class="list-group-item" *ngFor="let contact of (contacts$ | async)">
+    <li class="entry list-group-item" *ngFor="let contact of (contacts$ | async)">
       <p>
         <strong>Name:</strong>
         &nbsp;{{ contact.name }}
@@ -12,17 +10,15 @@
         <strong>Phone:</strong>
         &nbsp;+1 {{contact.phoneNumber}}
       </p>
-      <div class="actions">
-        <button class="btn edit-button btn-sm btn-secondary">
-          Edit
-        </button>
-        <button class="btn delete-button btn-sm btn-danger">
-          Delete
-        </button>
-      </div>
+      <button class="edit-button btn btn-sm btn-secondary">
+        Edit
+      </button>
+      <button class="delete-button btn btn-sm btn-danger">
+        Delete
+      </button>
     </li>
   </ul>
+  <button class="add-button btn btn-primary" (click)="addContact()">
+    Add
+  </button>
 </div>
-<button class="add-button btn btn-primary" (click)="addContact()">
-  Add
-</button>

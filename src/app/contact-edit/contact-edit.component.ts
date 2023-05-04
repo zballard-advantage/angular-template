@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ContactStateService } from 'src/app/services/contact-state.service';
-import {Contact} from "../../models/contact.model";
+import {Contact} from "../models/contact.model";
 import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
@@ -15,6 +15,8 @@ export class ContactEditComponent {
     phoneNumber: ""
   };
 
+  isEditing = false;
+
   constructor(
     private contactStateService: ContactStateService,
     private router: Router
@@ -24,6 +26,6 @@ export class ContactEditComponent {
 
   saveContact() {
     this.contactStateService.saveContact(this.contact);
-    this.router.navigate(["contacts"]);
+    this.router.navigate(["contacts"])
   }
 }

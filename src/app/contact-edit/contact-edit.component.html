@@ -1,23 +1,10 @@
-<div class="submit-form">
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text"
-           class="form-control"
-           id="name"
-           required
-           name="Name"
-           [(ngModel)]="contact.name"/>
-  </div>
-  <div class="form-group">
-    <label for="phoneNumber">Phone Number</label>
-    <input class="form-control"
-           id="phoneNumber"
-           required
-           name="Phone Number"
-           [(ngModel)]="contact.phoneNumber"/>
-  </div>
-  <button class="btn btn-success save-button"
-          (click)="saveContact()">
+<div class="form-container">
+  <h4>{{isEditing ? "Edit Contact" : "New Contact"}}</h4>
+  <label for="name">Name</label>
+  <input type="text" class="form-control" id="name" required name="Name" [(ngModel)]="contact.name" />
+  <label for="phoneNumber">Phone Number</label>
+  <input class="form-control" id="phoneNumber" required name="Phone Number" [(ngModel)]="contact.phoneNumber" />
+  <button class="save-button btn btn-success" (click)="saveContact()">
     Save
   </button>
 </div>

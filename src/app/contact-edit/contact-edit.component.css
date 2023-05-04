@@ -1,4 +1,7 @@
-.submit-form {
-  max-width: 400px;
-  margin: auto;
+.form-container {
+  width: 375px;
+}
+
+.save-button {
+  margin-top: 15px;
 }
