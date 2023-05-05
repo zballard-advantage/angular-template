@@ -15,12 +15,16 @@
 
 3.  Put the Atlas logo in the left corner of the navigation bar
 
-4.  The Save button should stretch across the bottom
+4.  The Save button should stretch across the bottom of the form
 
-5.  Introduce the concept of description to contacts, like name and phone number have been implemented, with the ability to save. This should also be displayed on list view.
+5.  Introduce the concept of description to contacts, like name and phone number have been implemented.
 
-6.  Able to delete a contact
+6.  Description should be visible on the list view
 
-7.  Introduce the ability to edit an existing contact and save the changes
+7.  Description should be limited to 150 characters
 
-8.  Do not allow save if all data is not provided
+8.  Introduce the ability to delete an existing contact
+
+9.  Introduce the ability to edit an existing contact and save the changes
+
+10.  Do not allow save if all data is not provided

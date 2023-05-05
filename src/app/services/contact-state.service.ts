@@ -34,10 +34,4 @@ export class ContactStateService {
       take(1)
     ).subscribe(contacts => this._contacts.next([...contacts, contact]))
   }
-
-  getContact(id: number) {
-    return this.contacts$.pipe(
-      take(1)
-    ).subscribe(contacts => contacts.filter(x => x.id === id))
-  }
 }

@@ -1,9 +1,9 @@
 <div class="form-container">
   <h4>{{isEditing ? "Edit Contact" : "New Contact"}}</h4>
   <label for="name">Name</label>
-  <input type="text" class="form-control" id="name" required name="Name" [(ngModel)]="contact.name" />
+  <input type="text" class="form-control" id="name" name="Name" [(ngModel)]="contact.name" />
   <label for="phoneNumber">Phone Number</label>
-  <input class="form-control" id="phoneNumber" required name="Phone Number" [(ngModel)]="contact.phoneNumber" />
+  <input class="form-control" id="phoneNumber" name="Phone Number" [(ngModel)]="contact.phoneNumber" />
   <button class="save-button btn btn-success" (click)="saveContact()">
     Save
   </button>
